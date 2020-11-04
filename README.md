@@ -1,2 +1,2 @@
-# InternetTechnologies
+# Internet Technologies
 Репозиторий для сдачи лабораторных работ по курсу Технологии сети Интернет
