@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Война вирусов</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<button id="start">Старт!</button>
+<div id="yourMove" class="yourMove">Твой ход</div>
+<section class="game_field">
+    <div class="field">
+        <table id="tb">
+            <tr>
+                <td class="nav">10</td><td id="00">x</td><td id="01">x</td><td id="02">x</td><td id="03">x</td><td id="04">x</td><td id="05">x</td><td id="06">x</td><td id="07">x</td><td id="08">x</td><td id="09">x</td>
+            </tr>
+            <tr>
+                <td class="nav">9</td><td id="10">x</td><td id="11">x</td><td id="12">x</td><td id="13">x</td><td id="14">x</td><td id="15">x</td><td id="16">x</td><td id="17">x</td><td id="18">x</td><td id="19">x</td>
+            <tr>
+                <td class="nav">8</td><td id="20">x</td><td id="21">x</td><td id="22">x</td><td id="23">x</td><td id="24">x</td><td id="25">x</td><td id="26">x</td><td id="27">x</td><td id="28">x</td><td id="29">x</td>
+            </tr>
+            <tr>
+                <td class="nav">7</td><td id="30">x</td><td id="31">x</td><td id="32">x</td><td id="33">x</td><td id="34">x</td><td id="35">x</td><td id="36">x</td><td id="37">x</td><td id="38">x</td><td id="39">x</td>
+            </tr>
+            <tr>
+                <td class="nav">6</td><td id="40">x</td><td id="41">x</td><td id="42">x</td><td id="43">x</td><td id="44">x</td><td id="45">x</td><td id="46">x</td><td id="47">x</td><td id="48">x</td><td id="49">x</td>
+            </tr>
+            <tr>
+                <td class="nav">5</td><td id="50">x</td><td id="51">x</td><td id="52">x</td><td id="53">x</td><td id="54">x</td><td id="55">x</td><td id="56">x</td><td id="57">x</td><td id="58">x</td><td id="59">x</td>
+            </tr>
+            <tr>
+                <td class="nav">4</td><td id="60">x</td><td id="61">x</td><td id="62">x</td><td id="63">x</td><td id="64">x</td><td id="65">x</td><td id="66">x</td><td id="67">x</td><td id="68">x</td><td id="69">x</td>
+            </tr>
+            <tr>
+                <td class="nav">3</td><td id="70">x</td><td id="71">x</td><td id="72">x</td><td id="73">x</td><td id="74">x</td><td id="75">x</td><td id="76">x</td><td id="77">x</td><td id="78">x</td><td id="79">x</td>
+            </tr>
+            <tr>
+                <td class="nav">2</td><td id="80">x</td><td id="81">x</td><td id="82">x</td><td id="83">x</td><td id="84">x</td><td id="85">x</td><td id="86">x</td><td id="87">x</td><td id="88">x</td><td id="89">x</td>
+            </tr>
+            <tr>
+                <td class="nav">1</td><td id="90">1</td><td id="91">x</td><td id="92">x</td><td id="93">x</td><td id="94">x</td><td id="95">x</td><td id="96">x</td><td id="97">x</td><td id="98">x</td><td id="99">x</td>
+            </tr>
+            <tr>
+                <td class="nav"></td><td class="nav">a</td><td class="nav">b</td><td class="nav">c</td><td class="nav">d</td><td class="nav">e</td><td class="nav">f</td><td class="nav">g</td><td class="nav">h</td><td class="nav">i</td><td class="nav">k</td>
+            </tr>
+        </table>
+    </div>
+    <div class="buttons">
+        <div class="game_options" id="game_options">
+            <button id="1">X</button>
+            <button id="2">O</button>
+            <button id="3">*</button>
+            <button id="4">%</button>
+        </div>
+        <div class="next_action" id="next_action">
+            <button id="next_act">Сделать ход</button>
+            <button id="give_up">Сдаться</button>
+        </div>
+    </div>
+</section>
+<script src="scripts/game.js"></script>
+</body>
+</html>
