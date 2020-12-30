@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    font-family: Times New Roman, Helvetica, sans-serif;
+}
+
+.header h1{
+    text-align: center;
+    font-family: Times New Roman, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.header h3{
+    text-align: left;
+    font-family: Times New Roman, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.rules{
+    border-color: black;
+    border: 3px;
+}
+
+a{
+    text-align: left;
+    text-decoration: none;
+}
+
+.field{
+    display: flex;
+    justify-content: space-around;
+}
+
+.field table{
+    margin: 50px auto;
+    width: 550px;
+    height: 550px;
+    border-spacing: 0;
+}
+
+.field table td{
+    text-align: center;
+    border: 2px solid black;
+}
+
+
+button{
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: 100px;
+    box-shadow: inset 0px 0 0 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px;
+    background-image: linear-gradient(to top, #008c 0%, #fff1);
+    cursor: pointer;
+    outline: none;
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+}
+.game_field{
+    display: flex;
+    justify-content: space-around;
+}
+
+.game_field table{
+    margin: 50px auto;
+    width: 550px;
+    height: 550px;
+    border-spacing: 0;
+}
+
+.game_field table td{
+    text-align: center;
+    border: 2px solid black;
+}
+
+.game_field table .nav{
+    border: none;
+    width: 50px;
+    height: 50;
+}
+
+.game_field .buttons{
+    width: 500px;
+}
+
+.game_field .buttons .game_options, .next_action{
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.game_field .buttons .game_options{
+    justify-content: center;
+}
+
+.game_field .buttons .game_options button{
+    width: 50px;
+    height: 50px;
+    background-image: none;
+    background-color: red;;
+}
+
+.game_field .buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.yourMove{
+    display: none;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 20px;
+    color: green;
+    font-weight: 600;
+}
